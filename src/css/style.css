@@ -71,16 +71,6 @@ body {
     font-size: 4rem;
 }
 
-@media(max-width: 425px) {
-    .hero {
-        height: 60vh;
-    }
-
-    .hero h2 {
-        font-size: 2.5rem;
-    }
-}
-
 /* ABOUT */
 .about {
     grid-area: about;
@@ -136,17 +126,6 @@ body {
     background-size: cover;
 }
 
-@media(max-width: 425px) {
-    .about .item {
-        text-align: center;
-    }
-
-    .about {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-    }
-}
-
 /* SERVICES */
 .services {
     grid-area: services;
@@ -185,12 +164,6 @@ body {
     background-color: lightpink;
 }
 
-@media(max-width: 425px) {
-    .services {
-        grid-template-columns: 1fr;
-    }
-}
-
 /* PROJECTS */
 .projects {
     grid-area: projects;
@@ -205,20 +178,6 @@ body {
 
 .projects a:hover img {
     opacity: 0.8;
-}
-
-@media(max-width: 768px) {
-    .projects {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-}
-
-@media(max-width: 425px) {
-    .projects {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-    }  
 }
 
 /* FOOTER */
